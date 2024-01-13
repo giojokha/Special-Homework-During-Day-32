@@ -1,0 +1,55 @@
+main{
+    word-wrap: normal;
+    text-align: center;
+    background-color:lime;
+}
+
+footer {
+    background-color: lime;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    position:relative;
+}
+
+h1{
+    text-align:center;
+}
+
+span{
+    background-color: lightgreen;
+}
+
+img{
+    width:400px;
+    align-items:center;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+img:hover{
+    box-shadow: 0 0 20px 5px rgba(0, 255, 106, 0.7);
+}
+
+body{
+    background-color:bisque;
+}
+
+header h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+}
+
+section{
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f0f0f0;
+    word-wrap:unset;
+    text-align:center;
+}
